@@ -1,0 +1,43 @@
+input.geoLongText {
+	width:350px;
+}
+
+.geoTests {
+    width:600px;
+    float:left;
+}
+.geoTests dt {
+    font-weight:bold;
+    display:block;
+    float:left;
+    width:250px;
+    text-align:right;
+    margin:0 10px 4px 0;
+}
+.geoTests dd {
+    float:left;
+    margin:0 0 4px 0;
+    padding:0 0 0 20px;
+    background:transparent url(../images/error.png) center left no-repeat;
+}
+.geoTests dd.geopass {
+    background:transparent url(../images/success.png) center left no-repeat;
+}
+.geoSuccess {
+    clear:both;
+}  
+
+form#geoposty-conf {
+  width: 600px;
+}
+
+form#geoposty-conf input[type="text"]{ 
+  
+  width: 200px;
+  
+} 
+
+form#geoposty-conf th {
+  width: 80px;  
+  font-weight: bold;
+}
