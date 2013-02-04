@@ -529,7 +529,7 @@ function geoposty_conf() {
 			if (version_compare(phpversion(), "5.0", ">=")) $geoPHPTest = ' class="geopass"';
 			if (function_exists(simplexml_load_string)) $geoXMLTest = ' class="geopass"';
 			if (function_exists(json_decode)) $geoJSONTest = ' class="geopass"';
-			if (wp_remote_retrieve_response_code(wp_remote_get(SERVER)) == '200') $geoRemoteAPI = ' class="geopass"';
+			if (wp_remote_retrieve_response_code(wp_remote_get(GEOSERVER . GEOSERVER_VERSION . GEOSERVER_METHOD)) == '403') $geoRemoteAPI = ' class="geopass"'; 
 
 ?>
 			<dl class="geoTests">
