@@ -12,7 +12,6 @@
 */
 
 define('GDEBUG',false);
-define('SERVER','http://api.geoposty.com/');
 define('GEOSERVER', 'http://api.quova.com/');
 define('GEOSERVER_VERSION', 'v1/');
 define('GEOSERVER_METHOD','ipinfo/');
