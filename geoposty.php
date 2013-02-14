@@ -58,7 +58,7 @@ if (empty($geoposty_neustar_api_key) || empty($geoposty_neustar_api_secret)) {
 } else {
 
 	require(dirname(__FILE__)  . '/curl.php');
-    require(dirname(__FILE__)  . '/widgets.php');
+    	require(dirname(__FILE__)  . '/widgets.php');
 	require(dirname(__FILE__)  . '/shortcodes.php');
 	require(dirname(__FILE__)  . '/reporting.php');
 
