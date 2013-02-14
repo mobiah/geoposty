@@ -50,7 +50,7 @@ function getGeoPosty() {
 			'IPAddress' => (string)$geoPostyXML->{ip_address},
 			'Carrier' => ucwords($geoPostyXML->{Network}->{carrier}),
 			'Continent' => ucwords($geoPostyXML->{Location}->{continent}),
-			'Country' => strtoupper($geoPostyXML->{Location}->{country}),
+			'Country' => strtoupper($geoPostyXML->{Location}->{CountryData}->{country_code}),  
 			'Region' => ucwords($geoPostyXML->{Location}->{region}),
 			'State' => strtoupper($geoPostyXML->{Location}->{StateData}->{state_code}),
 			'City' => ucwords($geoPostyXML->{Location}->{CityData}->{city}),
