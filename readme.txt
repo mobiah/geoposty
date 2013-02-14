@@ -124,6 +124,13 @@ Initial release
 
         * Google Weather changed their API *back to to the old image link format,o we had to make the change back.
 
+1.0 February 4, 2012
+
+        * Transitioned GeoPosty to Neustar Intelligence API.
+
+1.0.1 February 4, 2012
+
+        * Fixed country code issue.
 
 
 == License ==
